@@ -1,0 +1,11 @@
+
+<template>
+  <!-- comment out the below require and the bug will be fixed! -->
+  <!--<require from='comp'></require>-->
+
+<div repeat.for="number of numbers">
+  ${number}
+<compose view-model="comp" model.bind="number"></compose>
+</div>
+</template>
+ 
